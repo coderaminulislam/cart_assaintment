@@ -1,0 +1,26 @@
+import 'package:cart_assiantment/screens/home_screen.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const Cartapp());
+}
+
+class Cartapp extends StatelessWidget {
+  const Cartapp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home:  const HomeScreen(),
+      theme: ThemeData(
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Color(0xfff9f9f9),
+          foregroundColor: Color(0xff222222),
+        ),
+      ),
+    );
+  }
+}
+
+
