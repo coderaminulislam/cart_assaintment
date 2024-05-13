@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     height: 20,
                   ),
                   _cartListViewBuilder(),
-                  const SizedBox(height: 100,),
+                  const SizedBox(height: 40,),
                   _cartTotalAmount(totalPrice),
                   const SizedBox(
                     height: 10,
